@@ -90,5 +90,4 @@ ggplot(d_stat, aes(x=log2FC, y = -log10(p.value), label=LipidClass)) +
   geom_hline(yintercept = -log10(0.05), color = "green")+
   theme_bw()+
   theme(aspect.ratio=1)
-
 ```
